@@ -3,10 +3,9 @@ def solution(A):
     hash = dict()
     for num in A:
         if num not in hash.keys():
-            A[num] = 1
+            hash[num] = 1
         else:
-            A[num] *= -1
-    
+            hash[num] *= -1
     for key, value in hash.items():
         if value == 1:
             return key

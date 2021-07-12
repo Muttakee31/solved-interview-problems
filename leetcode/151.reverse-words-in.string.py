@@ -7,4 +7,4 @@ def reverseWords(s):
     l = len(spl)
     for i in range(l//2):
         spl[i], spl[l-1-i] = spl[l-i-1], spl[i]
-    return "".join(spl)_
+    return "".join(spl)
