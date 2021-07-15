@@ -14,6 +14,7 @@ class Solution(object):
         but floyd cycle detection to the rescue.
         mathematically there will always be a cycle in a pattern like this
         just detect the cycle and check if the cycle is in 1 or not and voila!
+        of course had to see the solution. :( talk about garbage skills.
         """
         slow = self.sumsquare(n)
         fast = self.sumsquare(slow)
