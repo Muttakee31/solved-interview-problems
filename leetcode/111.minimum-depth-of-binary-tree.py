@@ -18,7 +18,7 @@ class Solution(object):
         return self.dfs(root, 1) if root is not None else 0
         
         """
-        below is the bfs solution. return the first and leaf. way simple than my dfs :(
+        below is the bfs solution. return the first leaf. way simple than my dfs :(
         def minDepth(self, root):
         if not root:
             return 0
