@@ -1,4 +1,7 @@
+from classes.ListNode import ListNode
 class Solution(object):
+    ListNode: ListNode
+
     def mergeTwoLists(self, l1, l2):
         """
         attempt to learn linked list in python. could not solve.

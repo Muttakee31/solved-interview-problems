@@ -1,3 +1,4 @@
+from classes.ListNode import ListNode
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         """
